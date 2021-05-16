@@ -38,6 +38,7 @@ class Neighbour2Neighbour():
         return (args.epochs, args.batch, args.var, args.learning_rate, args.data_dir, args.checkpoint_dir)
 
     def subsample(self, image):
+        # This function only works for k = 2 as of now.
         blen, channels, m, n = np.shape(image)
         dim1, dim2 = m // self.k, n // self.k
         image1, image2 = np.zeros([blen, channels, dim1, dim2]), np.zeros(
