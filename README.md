@@ -5,10 +5,11 @@ A Gaussian Noise denoiser for images, based on the Neighbour2Neighbour algorithm
 ### Results
 The results are really good for an unsupervised pipeline, i.e, the training was performed using only noisy images and no clean images were used. Noisy-denoised image pairs follow.
 
-<div align='center'>
+<div align='center' style='margin: 20px;'>
 
-![59v21x](https://user-images.githubusercontent.com/31539812/118510176-55d0a000-b74e-11eb-99dd-a5ca899e8135.gif)
 ![noisy_](https://user-images.githubusercontent.com/31539812/118510181-5701cd00-b74e-11eb-8b89-98647250a22b.gif)
+![59v21x](https://user-images.githubusercontent.com/31539812/118510176-55d0a000-b74e-11eb-99dd-a5ca899e8135.gif)
+
 
 </div>
 
