@@ -19,7 +19,7 @@ The results are really good for an unsupervised pipeline, i.e, the training was 
 pip3 install -r requirements.txt
 ```
 
-### Inference/Evaluation
+### Training
 
 
 To train the model, run the following command after augmenting the parameters as per the need.
@@ -28,7 +28,7 @@ To train the model, run the following command after augmenting the parameters as
 python3 train.py --epochs=15 --var=0.4 --batch=4 --learning_rate=0.001 --data_dir=./data --checkpoint_dir=./checkpoints
 ```
 
-### Testing
+### Inference/Evaluation
 To expermiment with saved model checkpoints, run the following command after updating the arguments. Download the checkpoint from this link: [Google Drive](https://drive.google.com/file/d/189Wq-XX0sVIoOGbl0aVBcKE9SLzcmLH2/view?usp=sharing)
 
 ```
