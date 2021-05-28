@@ -19,7 +19,7 @@ The results are really good for an unsupervised pipeline, i.e, the training was 
 pip3 install -r requirements.txt
 ```
 
-### Training
+### Inference/Evaluation
 
 
 To train the model, run the following command after augmenting the parameters as per the need.
