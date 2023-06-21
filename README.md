@@ -2,6 +2,8 @@
 
 A Gaussian Noise denoiser for images, based on the Neighbour2Neighbour algorithm from the paper [Neighbor2Neighbor: Self-Supervised Denoising from Single Noisy Images](https://arxiv.org/pdf/2101.02824.pdf). It leverages subamples of a noisy image as independent noisy pairs to perform training. 
 
+Checkout the [server](https://github.com/neeraj3029/Ne2Ne-Image-Denoising/tree/main/server) directory to run the denoiser application as a Flask server
+
 ### Results
 The results are really good for an unsupervised pipeline, i.e, the training was performed using only noisy images and no clean images were used. Noisy-denoised image pairs follow.
 
